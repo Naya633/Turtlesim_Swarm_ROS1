@@ -1,0 +1,8 @@
+# ROS build folders 
+/build 
+/devel 
+/log 
+ 
+# System files 
+.DS_Store 
+*.swp 
