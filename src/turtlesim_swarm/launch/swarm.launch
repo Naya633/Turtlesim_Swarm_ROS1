@@ -1,0 +1,8 @@
+<launch>
+
+<rosparam command="load"  file="$(find b_turtle_hw2)/config/params.yaml"/>
+
+<node pkg="turtlesim" type="turtlesim_node" name="turtle" respawn="true"/>
+
+<node pkg="b_turtle_hw2" type="turtle_move.py" name="Swwarm_turtles_222" output="screen" />
+</launch>
